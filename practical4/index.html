@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <h1 class="heading">Travel Gallery</h1>
+
+    <section id="gallery-section">
+        <h1>Explore the World</h1>
+        <div id="image-container" class="gallery-grid"></div>
+    </section>
+
+    <div id="info-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content" role="document">
+            <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+            <img id="modal-image" class="modal-image" alt="" />
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Travel Gallery. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
